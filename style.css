@@ -47,3 +47,67 @@ body {
 .alarm--ring {
   animation: ring 100ms 50;
 }
+.set{
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+input {
+  font-size: 33px;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(81, 81, 81);
+  border: 5px solid rgb(86, 86, 86);
+  border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.start {
+  font-size: 33px;
+  margin-left: 1rem;
+  padding: 15px;
+  background-color: rgb(17, 203, 17);
+  border: 5px solid green;
+  color: white;
+  border-radius: 1rem;
+  text-shadow: 2px 2px 2px rgb(56, 56, 56);
+}
+.start:hover{
+  background-color: green;
+}
+.up {
+  display: inline-block;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 33px;
+  font-weight: 600;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(81, 81, 81);
+  border: 5px solid rgb(86, 86, 86);
+  border-radius: 1rem;
+  display: inline;
+}
+.reset {
+  font-size: 33px;
+  margin-left: 1rem;
+  padding: 15px;
+  background-color: #f32335;
+  border: 5px solid #be1e2b;
+  color: white;
+  border-radius: 1rem;
+  text-shadow: 2px 2px 2px rgb(56, 56, 56);
+  
+}
+.reset:hover {
+  background-color: #be1e2b;
+}
+
+p:hover {
+  background-color: rgb(229, 225, 216);
+}
+input:hover {
+  background-color: rgb(229, 225, 216);
+}
