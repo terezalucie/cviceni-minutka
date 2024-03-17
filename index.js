@@ -28,21 +28,6 @@ const timeSet2 = btnStart.addEventListener("click", () => {
 
 
     const interval = setInterval(() => {
-    let totalSeconds = hours * 3600 + minutes * 60 + seconds
-
-/*         if(totalSeconds > 0){
-            totalSeconds--
-
-            let remainingHours = Math.floor(totalSeconds / 3600)
-            let remainingMinutes = Math.floor((totalSeconds % 3600) / 60)
-            let remainingSeconds = totalSeconds % 60
-
-            timeDisplay.textContent = `${String(remainingHours).padStart(2, "0")} : ${String(remainingMinutes).padStart(2, "0")} : ${String(remainingSeconds).padStart(2, "0")}`
-
-            if(seconds <= 0){
-                clearInterval(interval)
-            }
-        }  */  
 
         if (hours === 0 && minutes === 0 && seconds === 0) {
             clearInterval(interval);
