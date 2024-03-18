@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap');
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,8 +14,14 @@ body {
   display: flex;
   background-color: #4ecdc4;
 }
-
+.border {
+  background-color: #76d8d1;
+  border: 20px solid #90e0da;
+  border-radius: 20px;
+  width: 520px;
+}
 .container {
+  
   width: 30rem;
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +72,7 @@ input {
 }
 .start {
   font-size: 33px;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   padding: 15px;
   background-color: rgb(17, 203, 17);
   border: 5px solid green;
@@ -72,12 +80,13 @@ input {
   border-radius: 1rem;
   text-shadow: 2px 2px 2px rgb(56, 56, 56);
 }
-.start:hover{
+.start:hover,
+.start:active {
   background-color: green;
 }
 .up {
   display: inline-block;
-  margin-left: 3rem;
+  margin-left: 13%;
   margin-bottom: 2rem;
 }
 p {
@@ -92,7 +101,7 @@ p {
 }
 .reset {
   font-size: 33px;
-  margin-left: 1rem;
+  margin-left: 0.7rem;
   padding: 15px;
   background-color: #f32335;
   border: 5px solid #be1e2b;
@@ -101,7 +110,8 @@ p {
   text-shadow: 2px 2px 2px rgb(56, 56, 56);
   
 }
-.reset:hover {
+.reset:hover,
+.reset:active {
   background-color: #be1e2b;
 }
 
@@ -111,3 +121,4 @@ p:hover {
 input:hover {
   background-color: rgb(229, 225, 216);
 }
+
